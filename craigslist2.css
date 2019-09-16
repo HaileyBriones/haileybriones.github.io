@@ -24,7 +24,6 @@ body, html{
     margin-bottom: 1em;   
     background-color: aqua;
  }
-
 .middle_menu{
     width:100%;
     display: grid;
@@ -52,7 +51,6 @@ body, html{
     display: grid;
     background-color:rgb(192, 151, 204);
 }
-
 .right_menu_options{
     margin-left: 1em;
     margin-right: 1em;

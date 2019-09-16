@@ -1,40 +1,96 @@
-.topmenu{
-
+body,html{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 1em;
+    background-color: white;
+}
+.menu{
+    display: grid;
+    padding: 1rem;
+    margin: 10px 70px 100px 100px;
+    width: 140px;
+    height: 230px;
+    background-color: rgb(137, 137, 137)
 }
 .leftmenu{
-    background-color: rgb(137, 137, 137);
+    display: grid;
+    margin: -100px 170px auto auto;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(137, 137, 137)
 }
-.main{
+.main_spread{
+    display: grid;
+    margin: -5px 170px auto auto;
+    padding: 1rem;
+    width: 520px;
+    height: 2840px;
+    grid-template-columns: 520px;
+    grid-template-rows: 250px 75px 250px 75px 250px 75px 250px 75px 250px 75px 250px 75px 250px 75px 250px 75px 250px 75px;
+    grid-gap: 1rem;
+    background-color: rgb(255, 199, 183);
 }
 .image{
-    
     background-color: rgb(255, 222, 213);
 }
 .description{
     background-color: rgb(255, 222, 213);
 }
 .title{
-
+    display: grid;
+    margin: 40px 285px auto auto;
+    padding: 1rem;
+    width: 200px;
+    height: 1px;
+background-color: rgb(255, 244, 242);
 }
 .icon_grid{
     display: grid;
+    margin: 10px 170px auto auto;
     padding: 1rem;
-    width: 100%; 
+    width: 520px;
+    height: 820px;
     grid-template-columns: 250px 250px;
     grid-template-rows: 150px 150px 150px 150px 150px;
     background-color: rgb(64, 192, 176);
     grid-gap: 1rem;
 }
 .icon{
-background-color: rgb(144, 218, 209);
+    background-color: rgb(144, 218, 209);
 }
-
-
-background-color: rgb(167, 6, 106);
-background-color: rgb(204, 111, 168);
-background-color: rgb(236, 236, 236);
-background-color: rgb(244, 244, 244);
-background-color: rgb(255, 199, 183);
-
-background-color: rgb(236, 236, 236);
-
+.image_grid{
+    display: grid;
+    margin: 10px 170px auto auto;
+    padding: 1rem;
+    width: 520px;
+    height: 490px;
+    grid-template-columns: 325px 175px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    background-color: rgb(167, 6, 106);
+    grid-gap: 1rem;
+}
+.left_image{
+    background-color: rgb(204, 111, 168);
+}
+.right_description{
+    background-color: rgb(204, 111, 168); 
+}
+.bottom_menu{
+    display: grid;
+    margin: 10px 170px auto auto;
+    padding: 1rem;
+    width: 520px;
+    height: 220px;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: 100px 100px 100px 100px;
+    background-color: rgb(236, 236, 236);
+    grid-gap: 1rem;
+}
+.left{
+    background-color: rgb(244, 244, 244);
+}
+.right{
+    background-color: rgb(244, 244, 244); 
+}

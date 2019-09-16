@@ -1,0 +1,72 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background-color:rgb(219, 210, 199);
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr;
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    position: fixed;
+    z-index: 100;
+}
+.left{
+    width: 15%;
+    height: 20px;
+    margin: 10px auto auto 20px;
+    position: relative;
+    background-color: rgb(117, 117, 117);
+}
+.middle{
+    width: 50%;
+    height: 20px;
+    margin: 10px auto auto -180px;
+    position: relative;
+    background-color: rgb(117, 117, 117);
+}
+.right{
+    width: 5%;
+    height: 20px;
+    margin: 10px auto auto -80px;
+    position: relative;
+    background-color: rgb(117, 117, 117);
+}
+.hero_image{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 650px;
+    width: 100%;
+    background-color: rgb(182, 126, 128)
+}
+.learn_more{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    z-index: 100;
+}
+.description{
+    width: 80%;
+    height: 50px;
+    margin: -30px auto auto auto;
+    background-color: rgb(189, 185, 184);
+    position: relative;
+}
+.image_column{
+background-color: rgb(234, 228, 222);
+}
+.image{
+background-color: rgb(29, 48, 82);
+}
+.text{
+background-color: rgb(216, 219, 225);
+background-color: rgb(124, 135, 154)
+}
+.bottom_menu{
+background-color: rgb(59, 91, 71)
+}
