@@ -8,21 +8,32 @@
 
         <link rel="stylesheet" href="/style.css">
     </head>
-    <body>
+    <body class="menu_hidden">
         <div class="logo">
             <h1>Hailey Briones</h1>
         </div>
-        <div class="menu">
+        <div class="menu menu_toggle">
+            <div class="hamburger ">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
             <h4>Menu</h4>
-            <div class="work"></div>
-            <div class="about"></div>
-            <div class="social"></div>
-            <div class="resume"></div>
-            <div class="work_together"></div>
+        </div>
+        <div class="menu_expanded">
+            <div class="menu_close menu_toggle">
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="pages">
+                <div><a href="index.html">Home.</a></div>
+                <div><a href="about.html">About.</a></div>
+            </div>
         </div>
         <div class="social_bar">
             <div class="instagram">
                 <div><img src="/img/instagram.png" alt=""></div>
+                <a href="https://www.instagram.com/hailey.briones/"></a>
             </div>
             <div class="facebook">
                 <div><img src="/img/facebook.png" alt=""></div>
@@ -42,38 +53,41 @@
                 <h4>Scroll</h4>
             </div>
             <div class="project_grid">
-                <div class="typography">
-                    <p1>Graphic Design</p1>
+                <div class="singleclass">
+                    <img src="/img/IMG_8952.JPG" alt="">
+                    <p>Graphic Design</p>
                     <h3>Typography.</h3>
+                    <a href="typography.html"><h3>Typography.</h3></a>
                 </div>
-                <div class="helina">
-                    <p1>Graphic Design</p1>
+                <div class="singleclass">
+                    <p>Graphic Design</p>
                     <h3>Helina Tea.</h3>
+                    <a href="packaging.html"><h3>Helina Tea.</h3></a>
                 </div>
-                <div class="book">
-                    <p1>Graphic Design</p1>
-                    <h3>Book Cover Series.</h3>
+                <div class="singleclass">
+                    <p>Graphic Design</p>
+                    <a href="type.html"><h3>Type Legibility.</h3></a>
                 </div>
-                <div class="calendar">
-                    <p1>Graphic Design</p1>
+                <div class="singleclass">
+                    <p>Graphic Design</p>
                     <h3>Dream.</h3>
                 </div>
-                <div class="sculpture">
-                    <p1>3D Design</p1>
+                <div class="singleclass">
+                    <p>3D Design</p>
                     <h3>Model.</h3>
                 </div>
-<<<<<<< HEAD
                 <div class="singleclass">
                     <img src="/img/Photography.jpg" alt="">
                     <p>Graphic Design</p>
-=======
-                <div class="photography">
-                    <p1>Graphic Design</p1>
->>>>>>> parent of 9748c24... Finished project page and other updates
                     <h3>Photography.</h3>
+                    <a href="photography.html"><h3>Photography.</h3></a>
                 </div>
             </div>
-            <div class="footer"></div>
+            <div class="footer">
+                <div class="worktogether">Let's work together.</div>
+            </div>
+            <div class="frame"></div>
         </div>
+        <script src="/index.js"></script>
     </body>
 </html>
