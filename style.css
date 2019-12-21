@@ -29,8 +29,8 @@ a:hover{
 .menu{
     transform: rotate(270deg);
     position: fixed;
-    top: 530px;
-    left: 75px;
+    top: 360px;
+    left: 45px;
     z-index: 200;
 }
 .hamburger .line {
@@ -46,6 +46,7 @@ a:hover{
 }
 .hamburger:hover .line {
     background-color: grey;
+    position: fixed;
 }
 /* menu style */
 .menu_hidden .menu {
@@ -107,6 +108,7 @@ a:hover{
 }
 .pages{
     text-align: right;
+    margin-top: 70px;
 }
 .close{
     height: 20px;
@@ -121,10 +123,11 @@ a:hover{
 .social_bar{
     position: absolute;
     right: 0;
-    top: 530px;
+    top: 370px;
     width: 25px;
     height: 25px;
     margin: auto;
+    padding-right: 4px;
 }
 img{
     max-width: 100%;
@@ -135,13 +138,17 @@ img{
 }
 .hero_spread{
     display: grid;
-    height: 870px;
+    height: 670px;
     grid-template-columns: 1fr 1fr;
     background-color: #E2E2E2
 }
 .hero_spread h2{
     margin: auto 0 0 auto;
     margin-right: auto;
+}
+.hero_spread h5{
+    margin-right: auto;
+    margin-top: 0;
 }
 .hero_spread p{
     margin: auto auto 0 0;
@@ -156,10 +163,11 @@ img{
 .project_grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    width: 95%;
     background: #E8AEAE;
     color: white;
     font-size: 1.5em;
+    margin: auto;
 }
 h2{
     margin: auto;
@@ -167,6 +175,10 @@ h2{
 }
 h3{
     font-size: 30px;
+}
+h5{
+    margin: auto;
+    font-size: 100px;
 }
 p{
     margin: auto;
@@ -177,7 +189,6 @@ p{
 .p1{
     font-size: 15px;
 }
-
 .singleclass{
     height: 350px;
     position: relative;
@@ -254,12 +265,15 @@ p{
 .connect{
     padding: 20px;
 }
+.connect p{
+    font-size: 25px;
+}
 .social_bar2{
-    margin: 10px;
     right: 0;
-    top: 530px;
+    top: 1130px;
     width: 25px;
     height: 25px;
+    padding-top: 20px;
 }
 .heroimage{
     width: 100%;
@@ -350,8 +364,12 @@ p{
 }
 .description2{
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
+.footer p{
+    margin-left: -40px;
+}
 
 /*TABLET*/
 @media only screen and (min-width: 800px) and (max-width: 1180px){
@@ -360,6 +378,51 @@ p{
 
 /*SMARTPHONES*/
 @media only screen and (max-width: 800px){
-
+    h1{
+        font-size: 20px;
+    }
+    .footer p{
+        font-size: 20px;
+    }
+    .hero_spread{
+        display: grid;
+        height: 570px;
+        grid-template-columns: 1fr 1fr;
+        background-color: #E2E2E2;
+        width: 95%;
+        margin: auto;
+    }
+    h2{
+        font-size: 55px;;
+    }
+    h5{
+        font-size: 55px;
+    }
+    .menu{
+        left: 30px;
+    }
+    .project_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        background: #E8AEAE;
+        color: white;
+        font-size: 1.5em;
+        margin: auto;
+    }
+    .about_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        background-color: white;
+        color: black;
+        font-size: 1.5em;
+    }
+    .image1{
+        margin-top: 60px;
+    }
+    .image2{
+        display: none;
+    }
 }
 
